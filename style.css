@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+
+.container{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box{
+	border: 1px solid black;
+	height: 23px;
+	width: 23px
+}
+
+.button-container> button{
+	margin: 30px;
+	padding: 25px;
+}
+
+.black-box{
+	background-color: black;
+}
